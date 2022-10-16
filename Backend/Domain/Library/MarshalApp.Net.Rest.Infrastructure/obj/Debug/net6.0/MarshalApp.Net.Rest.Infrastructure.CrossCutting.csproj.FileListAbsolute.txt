@@ -1,0 +1,12 @@
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\bin\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.deps.json
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\bin\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.dll
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\bin\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.pdb
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.csproj.AssemblyReference.cache
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.AssemblyInfoInputs.cache
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.AssemblyInfo.cs
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.csproj.CoreCompileInputs.cache
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.dll
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\obj\Debug\net6.0\refint\MarshalApp.Net.Rest.Infrastructure.CrossCutting.dll
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.pdb
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\obj\Debug\net6.0\ref\MarshalApp.Net.Rest.Infrastructure.CrossCutting.dll

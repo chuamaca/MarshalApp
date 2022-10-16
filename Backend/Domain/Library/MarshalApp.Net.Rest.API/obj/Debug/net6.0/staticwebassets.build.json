@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vYl9LakYyytTmR+1C7Za1Coxf2iaQh6HqAIj2yqWNIY=",
+  "Source": "MarshalApp.Net.Rest.API",
+  "BasePath": "_content/MarshalApp.Net.Rest.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,49 @@
+version: '3.4'
+
+services:
+  marshalapp.net.rest.api:
+    image: ${DOCKER_REGISTRY-}library.service
+    container_name: library.service.com
+    build:
+      context: .
+      dockerfile: Backend/Domain/Library/MarshalApp.Net.Rest.API/Dockerfile
+    ports:
+      - 8086:80
+    networks:
+      - backend
+  marshalapp.net.security.api:
+    image: ${DOCKER_REGISTRY-}security.service    
+    container_name: security.service.com
+    build:
+      context: .
+      dockerfile: Backend/Infrastructure/Security/MarshalApp.Net.Security.API/Dockerfile
+    ports:
+      - 8087:80
+    networks:
+      - backend
+
+  full-stack-ng:
+    image: ${DOCKER_REGISTRY-}client.angular   
+    container_name: client.angular.com
+    build:
+      context: /Frontend/full-stack-ng
+      dockerfile: Dockerfile
+    ports:
+      - 8088:80
+    networks:
+      - backend
+
+  sql2019Com:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sql2019Com
+    ports:
+      - 14334:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=Password1234      
+    networks:
+      - backend  
+networks:
+  backend:
+    name: backend
+    driver: bridge

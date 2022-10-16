@@ -1,0 +1,16 @@
+services:
+  marshalapp.net.rest.api:
+    build:
+      context: D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp
+      dockerfile: Backend/Domain/Library/MarshalApp.Net.Rest.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: marshalappnetrestapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\Cesar\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Cesar\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

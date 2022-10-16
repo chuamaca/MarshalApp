@@ -1,0 +1,17 @@
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\bin\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.deps.json
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\bin\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.runtimeconfig.json
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\bin\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.dll
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\bin\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.pdb
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\bin\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.CrossCutting.dll
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\bin\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.CrossCutting.pdb
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\obj\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.csproj.AssemblyReference.cache
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\obj\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\obj\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.AssemblyInfoInputs.cache
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\obj\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.AssemblyInfo.cs
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\obj\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.csproj.CoreCompileInputs.cache
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\obj\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.csproj.CopyComplete
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\obj\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.dll
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\obj\Debug\net6.0\refint\E2EApp.Net.Rest.Infrastructure.Data.dll
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\obj\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.pdb
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\obj\Debug\net6.0\E2EApp.Net.Rest.Infrastructure.Data.genruntimeconfig.cache
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\E2EApp\Backend\Domain\Library\E2EApp.Net.Rest.Data\obj\Debug\net6.0\ref\E2EApp.Net.Rest.Infrastructure.Data.dll

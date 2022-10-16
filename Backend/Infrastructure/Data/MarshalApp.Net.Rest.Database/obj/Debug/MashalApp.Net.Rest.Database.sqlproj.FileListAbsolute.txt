@@ -1,0 +1,6 @@
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\bin\Debug\MashalApp.Net.Rest.Database.dacpac
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\bin\Debug\MarshalApp.Net.Rest.Database.dll
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\bin\Debug\MarshalApp.Net.Rest.Database.pdb
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\obj\Debug\MashalApp.Net.Rest.Database.sqlproj.AssemblyReference.cache
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\obj\Debug\MarshalApp.Net.Rest.Database.dll
+D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\obj\Debug\MarshalApp.Net.Rest.Database.pdb

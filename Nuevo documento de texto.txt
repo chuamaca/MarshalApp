@@ -1,0 +1,508 @@
+**********************************************************************
+** Visual Studio 2022 Developer PowerShell v17.2.4
+** Copyright (c) 2022 Microsoft Corporation
+**********************************************************************
+PS C:\Users\Cesar\source\repos> cd D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack
+Set-Location : No se encuentra ningún parámetro de posición que acepte el argumento 'NET'.
+En línea: 1 Carácter: 1
++ cd D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullSt ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Cesar\source\repos> cd "D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack"
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack> cd .\Frontend\
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend> cd .\full-stack-ng\
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m --module app --flat --dry-run
+? What name would you like to use for the NgModule? app
+A merge conflicted on path "/src/app/app.module.ts".
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m --module app-routing -module app --flat
+Unknown option: '-e'
+Unknown option: 'app'
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m app-routing --module app --flat
+CREATE src/app/app-routing.module.ts (196 bytes)
+UPDATE src/app/app.module.ts (472 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c HelloWorld
+CREATE src/app/hello-world/hello-world.component.html (26 bytes)
+CREATE src/app/hello-world/hello-world.component.spec.ts (655 bytes)
+CREATE src/app/hello-world/hello-world.component.ts (295 bytes)
+CREATE src/app/hello-world/hello-world.component.scss (0 bytes)
+UPDATE src/app/app.module.ts (572 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m feature/library-manager --dry-run
+CREATE src/app/feature/library-manager/library-manager.module.ts (200 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m feature/library-manager
+CREATE src/app/feature/library-manager/library-manager.module.ts (200 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m feature/security-manager
+CREATE src/app/feature/security-manager/security-manager.module.ts (201 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m feature/library-manager/library-manager --dry-run
+CREATE src/app/feature/library-manager/library-manager/library-manager.module.ts (200 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/library-manager --flat --dry-run
+CREATE src/app/feature/library-manager/library-manager.component.html (30 bytes)
+CREATE src/app/feature/library-manager/library-manager.component.spec.ts (683 bytes)
+CREATE src/app/feature/library-manager/library-manager.component.ts (311 bytes)
+CREATE src/app/feature/library-manager/library-manager.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/library-manager.module.ts (302 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/library-manager --flat --skipTest --dry-run
+Unknown option: '--skipTest'
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/library-manager --flat --skipTests --dry-run
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/library-manager.component.html (30 bytes)
+CREATE src/app/feature/library-manager/library-manager.component.ts (311 bytes)
+CREATE src/app/feature/library-manager/library-manager.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/library-manager.module.ts (302 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/library-manager --flat --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/library-manager.component.html (30 bytes)
+CREATE src/app/feature/library-manager/library-manager.component.ts (311 bytes)
+CREATE src/app/feature/library-manager/library-manager.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/library-manager.module.ts (302 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m feature/library-manager/library-manager-routing --flat --skipTests
+Unknown option: '--skipTests'
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m feature/library-manager/library-manager-routing --flat --dry-run
+CREATE src/app/feature/library-manager/library-manager-routing.module.ts (207 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m feature/library-manager/library-manager-routing --flat
+CREATE src/app/feature/library-manager/library-manager-routing.module.ts (207 bytes)             ng g m feature/library-manager/students --routing --dry-run   D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng>
+CREATE src/app/feature/library-manager/students/students-routing.module.ts (251 bytes)
+CREATE src/app/feature/library-manager/students/students.module.ts (288 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m feature/library-manager/students --routing          CREATE src/app/feature/library-manager/students/students-routing.module.ts (251 bytes)
+CREATE src/app/feature/library-manager/students/students.module.ts (288 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/students/students --dry-run --skiptests --flat
+Unknown option: '--skiptests'
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/students/students --dry-run --skipTests --flat
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/students/students.component.html (23 bytes)
+CREATE src/app/feature/library-manager/students/students.component.ts (284 bytes)
+CREATE src/app/feature/library-manager/students/students.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/students/students.module.ts (371 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/students/students --skipTests --flat
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/students/students.component.html (23 bytes)
+CREATE src/app/feature/library-manager/students/students.component.ts (284 bytes)
+CREATE src/app/feature/library-manager/students/students.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/students/students.module.ts (371 bytes)                 > ng g c feature/library-manager/students/students-tables --skipTests --dry-run NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng>
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/students/students-tables/students-tables.component.html (30 bytes)
+CREATE src/app/feature/library-manager/students/students-tables/students-tables.component.ts (311 bytes)
+CREATE src/app/feature/library-manager/students/students-tables/students-tables.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/students/students.module.ts (432 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/students/students-tables --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/students/students-tables/students-tables.component.html (30 bytes)
+CREATE src/app/feature/library-manager/students/students-tables/students-tables.component.ts (311 bytes)
+CREATE src/app/feature/library-manager/students/students-tables/students-tables.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/students/students.module.ts (432 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/students/students-grid --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/students/students-grid/students-grid.component.html (28 bytes)
+CREATE src/app/feature/library-manager/students/students-grid/students-grid.component.ts (303 bytes)
+CREATE src/app/feature/library-manager/students/students-grid/students-grid.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/students/students.module.ts (536 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/students/students-new --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/students/students-new/students-new.component.html (27 bytes)
+CREATE src/app/feature/library-manager/students/students-new/students-new.component.ts (299 bytes)
+CREATE src/app/feature/library-manager/students/students-new/students-new.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/students/students.module.ts (636 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/students/student-new --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/students/student-new/student-new.component.html (26 bytes)
+CREATE src/app/feature/library-manager/students/student-new/student-new.component.ts (295 bytes)
+CREATE src/app/feature/library-manager/students/student-new/student-new.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/students/students.module.ts (732 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/students/students-table --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/students/students-table/students-table.component.html (29 bytes)
+CREATE src/app/feature/library-manager/students/students-table/students-table.component.ts (307 bytes)
+CREATE src/app/feature/library-manager/students/students-table/students-table.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/students/students.module.ts (427 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng add @angular/material
+i Using package manager: npm
+√ Found compatible package version: @angular/material@13.3.9.
+√ Package information loaded.
+
+The package @angular/material@13.3.9 will be installed and executed.
+Would you like to proceed? Yes
+√ Package successfully installed.
+? Choose a prebuilt theme name, or "custom" for a custom theme: Deep Purple/Amber  [ Preview: https://material.angular.io?theme=deeppurple-amber ]
+? Set up global Angular Material typography styles? Yes
+? Set up browser animations for Angular Material? Yes
+UPDATE package.json (1174 bytes)
+√ Packages installed successfully.
+UPDATE src/app/app.module.ts (581 bytes)
+UPDATE angular.json (3409 bytes)
+UPDATE src/index.html (579 bytes)
+UPDATE src/styles.scss (102 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m shared/material --flat --dry-run
+CREATE src/app/shared/material.module.ts (194 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m shared/material --dry-run
+CREATE src/app/shared/material/material.module.ts (194 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m shared/material
+CREATE src/app/shared/material/material.module.ts (194 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout @angular/cdk
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout @angular/cdk
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm -v
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+8.12.1
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout @angular/cdk
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout @angular/cdk
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm install @angular/flex-layout @angular/cdk --save
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR!
+npm ERR! While resolving: full-stack-ng@0.0.0
+npm ERR! Found: @angular/cdk@13.3.9
+npm ERR! node_modules/@angular/cdk
+npm ERR!   @angular/cdk@"^13.3.9" from the root project
+npm ERR!
+npm ERR! Could not resolve dependency:
+npm ERR! peer @angular/cdk@"^14.0.0" from @angular/flex-layout@14.0.0-beta.40
+npm ERR! node_modules/@angular/flex-layout
+npm ERR!   @angular/flex-layout@"*" from the root project
+npm ERR!
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR!
+npm ERR! See C:\Users\Cesar\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Cesar\AppData\Local\npm-cache\_logs\2022-07-05T18_48_02_103Z-debug-0.log
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm install -s @angular/flex-layout @angular/cdk
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm -v
+8.12.1
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm install @angular/flex-layout @angular/cdk --save
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR!
+npm ERR! While resolving: full-stack-ng@0.0.0
+npm ERR! Found: @angular/cdk@13.3.9
+npm ERR! node_modules/@angular/cdk
+npm ERR!   @angular/cdk@"^13.3.9" from the root project
+npm ERR!
+npm ERR! Could not resolve dependency:
+npm ERR! peer @angular/cdk@"^14.0.0" from @angular/flex-layout@14.0.0-beta.40
+npm ERR! node_modules/@angular/flex-layout
+npm ERR!   @angular/flex-layout@"*" from the root project
+npm ERR!
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR!
+npm ERR! See C:\Users\Cesar\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Cesar\AppData\Local\npm-cache\_logs\2022-07-05T18_55_02_096Z-debug-0.log
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> angular -v
+angular : El término 'angular' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable. Compruebe si escribió correctamente
+el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ angular -v
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (angular:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout @angular/cdk
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout @angular/cdk
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout @angular/cdk
+npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout @angular/cdk
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout @angular/cdk
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout @angular/cdk
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm install --save @angular/flex-layout @angular/cdk
+npm ERR! code ERESOLVE
+npm ERR! ERESOLVE unable to resolve dependency tree
+npm ERR!
+npm ERR! While resolving: full-stack-ng@0.0.0
+npm ERR! Found: @angular/cdk@13.3.9
+npm ERR! node_modules/@angular/cdk
+npm ERR!   @angular/cdk@"^13.3.9" from the root project
+npm ERR!
+npm ERR! Could not resolve dependency:
+npm ERR! peer @angular/cdk@"^14.0.0" from @angular/flex-layout@14.0.0-beta.40
+npm ERR! node_modules/@angular/flex-layout
+npm ERR!   @angular/flex-layout@"*" from the root project
+npm ERR!
+npm ERR! Fix the upstream dependency conflict, or retry
+npm ERR! this command with --force, or --legacy-peer-deps
+npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+npm ERR!
+npm ERR! See C:\Users\Cesar\AppData\Local\npm-cache\eresolve-report.txt for a full report.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Cesar\AppData\Local\npm-cache\_logs\2022-07-05T19_35_03_383Z-debug-0.log
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 13.3.7
+Node: 16.15.1
+Package Manager: npm 8.12.1
+OS: win32 x64
+
+Angular: 13.3.11
+... animations, common, compiler, compiler-cli, core, forms
+... platform-browser, platform-browser-dynamic, router
+
+Package                         Version
+---------------------------------------------------------
+@angular-devkit/architect       0.1303.7
+@angular-devkit/build-angular   13.3.7
+@angular-devkit/core            13.3.7
+@angular-devkit/schematics      13.3.7
+@angular/cdk                    13.3.9
+@angular/cli                    13.3.7
+@angular/material               13.3.9
+@schematics/angular             13.3.7
+rxjs                            7.5.5
+typescript                      4.6.4
+
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i -s @angular/flex-layout@13.0.0-beta.38
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m shared/navigation --dry-run
+CREATE src/app/shared/navigation/navigation.module.ts (196 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m shared/navigation
+CREATE src/app/shared/navigation/navigation.module.ts (196 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c shared/navigation/header --skipTests --dry-run
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/shared/navigation/header/header.component.html (21 bytes)
+CREATE src/app/shared/navigation/header/header.component.ts (276 bytes)
+CREATE src/app/shared/navigation/header/header.component.scss (0 bytes)
+UPDATE src/app/shared/navigation/navigation.module.ts (280 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c shared/navigation/header --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/shared/navigation/header/header.component.html (21 bytes)
+CREATE src/app/shared/navigation/header/header.component.ts (276 bytes)
+CREATE src/app/shared/navigation/header/header.component.scss (0 bytes)
+UPDATE src/app/shared/navigation/navigation.module.ts (280 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c shared/navigation/sidenav --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/shared/navigation/sidenav/sidenav.component.html (22 bytes)
+CREATE src/app/shared/navigation/sidenav/sidenav.component.ts (280 bytes)
+CREATE src/app/shared/navigation/sidenav/sidenav.component.scss (0 bytes)
+UPDATE src/app/shared/navigation/navigation.module.ts (366 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m feature/library-manager/student --routing --dry-run --skipTests
+Unknown option: '--skipTests'
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g m feature/library-manager/student --routing
+CREATE src/app/feature/library-manager/student/student-routing.module.ts (250 bytes)
+CREATE src/app/feature/library-manager/student/student.module.ts (284 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/student
+CREATE src/app/feature/library-manager/student/student.component.html (22 bytes)
+CREATE src/app/feature/library-manager/student/student.component.spec.ts (633 bytes)
+CREATE src/app/feature/library-manager/student/student.component.ts (280 bytes)
+CREATE src/app/feature/library-manager/student/student.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/student/student.module.ts (364 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/student/student-details --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/student/student-details/student-details.component.html (30 bytes)
+CREATE src/app/feature/library-manager/student/student-details/student-details.component.ts (311 bytes)
+CREATE src/app/feature/library-manager/student/student-details/student-details.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/student/student.module.ts (480 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g p shared/capitalize --dry-run
+CREATE src/app/shared/capitalize.pipe.spec.ts (203 bytes)
+CREATE src/app/shared/capitalize.pipe.ts (225 bytes)
+UPDATE src/app/shared/shared.module.ts (645 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g p shared/pipes/capitalize --dry-run
+CREATE src/app/shared/pipes/capitalize.pipe.spec.ts (203 bytes)
+CREATE src/app/shared/pipes/capitalize.pipe.ts (225 bytes)
+UPDATE src/app/shared/shared.module.ts (651 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g p shared/pipes/capitalize
+CREATE src/app/shared/pipes/capitalize.pipe.spec.ts (203 bytes)
+CREATE src/app/shared/pipes/capitalize.pipe.ts (225 bytes)
+UPDATE src/app/shared/shared.module.ts (651 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g p shared/pipes/trim
+CREATE src/app/shared/pipes/trim.pipe.spec.ts (179 bytes)
+CREATE src/app/shared/pipes/trim.pipe.ts (213 bytes)
+UPDATE src/app/shared/shared.module.ts (711 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g p shared/pipes/datefmt
+CREATE src/app/shared/pipes/datefmt.pipe.spec.ts (191 bytes)
+CREATE src/app/shared/pipes/datefmt.pipe.ts (219 bytes)
+UPDATE src/app/shared/shared.module.ts (814 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/student/student-delete --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/student/student-delete/student-delete.component.html (29 bytes)
+CREATE src/app/feature/library-manager/student/student-delete/student-delete.component.ts (307 bytes)
+CREATE src/app/feature/library-manager/student/student-delete/student-delete.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/student/student.module.ts (504 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/student/student-edit --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/student/student-edit/student-edit.component.html (27 bytes)
+CREATE src/app/feature/library-manager/student/student-edit/student-edit.component.ts (299 bytes)
+CREATE src/app/feature/library-manager/student/student-edit/student-edit.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/student/student.module.ts (496 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i @angular/material-moment-adapter@13.3.9
+
+added 2 packages, and removed 1 package in 26s
+
+112 packages are looking for funding
+  run `npm fund` for details
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm i @angular/material-moment-adapter@13.3.9
+
+up to date in 6s
+
+112 packages are looking for funding
+  run `npm fund` for details
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> npm fund
+full-stack-ng@0.0.0
++-- https://opencollective.com/core-js
+|   `-- core-js@3.20.3, core-js-compat@3.22.8
++-- https://github.com/chalk/chalk?sponsor=1
+| | `-- chalk@4.1.2
+| `-- https://github.com/chalk/ansi-styles?sponsor=1
+|     `-- ansi-styles@4.3.0, ansi-styles@5.2.0
++-- https://opencollective.com/babel
+|   `-- @babel/core@7.18.2
++-- https://github.com/sponsors/sindresorhus
+|   `-- p-limit@2.3.0, globby@12.2.0, array-union@3.0.1, slash@4.0.0, open@8.4.0, is-docker@2.2.1, ora@5.4.1, cli-spinners@2.6.1, is-unicode-supported@0.1.0, log-symbols@4.1.0, import-fresh@3.3.0, parse-json@5.2.0, make-dir@3.1.0, p-map@4.0.0, pretty-bytes@5.6.0, ansi-escapes@4.3.2, type-fest@0.21.3, figures@3.2.0, onetime@5.1.2, del@6.1.1, globby@11.1.0, get-stream@6.0.1, is-stream@2.0.1, is-plain-obj@3.0.0
++-- https://github.com/sponsors/isaacs
+|   `-- glob@8.0.3, rimraf@3.0.2
++-- https://github.com/sponsors/jonschlinkert
+|   `-- picomatch@2.3.1
++-- https://github.com/chalk/supports-color?sponsor=1
+|   `-- supports-color@8.1.1
++-- https://opencollective.com/webpack
+| | `-- copy-webpack-plugin@10.2.1, schema-utils@4.0.0, css-loader@6.5.1, less-loader@10.2.0, mini-css-extract-plugin@2.5.3, postcss-loader@6.2.1, sass-loader@12.4.0, source-map-loader@3.0.1, stylus-loader@6.2.0, webpack@5.70.0, schema-utils@3.1.1, terser-webpack-plugin@5.3.3, webpack-dev-middleware@5.3.0, schema-utils@2.7.1
+| `-- https://github.com/sponsors/feross
+|     `-- run-parallel@1.2.0, queue-microtask@1.2.3, buffer@5.7.1, base64-js@1.5.1, ieee754@1.2.1, safe-buffer@5.2.1
++-- https://opencollective.com/postcss/
+|   `-- postcss@8.4.5, autoprefixer@10.4.7
++-- https://paulmillr.com/funding/
+|   `-- chokidar@3.5.3
++-- https://github.com/sponsors/epoberezkin
+|   `-- ajv@8.9.0, ajv@6.12.6
++-- https://github.com/sponsors/ljharb
+|   `-- resolve@1.22.0, is-core-module@2.9.0, supports-preserve-symlinks-flag@1.0.0, object.assign@4.1.2, call-bind@1.0.2, get-intrinsic@1.1.2, define-properties@1.1.4, has-property-descriptors@1.0.0, has-symbols@1.0.3, deep-equal@1.1.1, is-arguments@1.1.1, has-tostringtag@1.0.0, is-date-object@1.0.5, is-regex@1.1.4, object-is@1.1.5, regexp.prototype.flags@1.4.3, functions-have-names@1.2.3, qs@6.10.3, side-channel@1.0.4, object-inspect@1.12.2
++-- https://github.com/avajs/find-cache-dir?sponsor=1
+|   `-- find-cache-dir@3.3.2
++-- https://github.com/sponsors/fb55
+| | `-- css-select@4.3.0, css-what@6.1.0, domelementtype@2.3.0
+| +-- https://github.com/fb55/domhandler?sponsor=1
+| |   `-- domhandler@4.3.1
+| +-- https://github.com/fb55/domutils?sponsor=1
+| | | `-- domutils@2.8.0
+| | `-- https://github.com/cheeriojs/dom-serializer?sponsor=1
+| |   | `-- dom-serializer@1.4.1
+| |   `-- https://github.com/fb55/entities?sponsor=1
+| |       `-- entities@2.2.0
+| `-- https://github.com/fb55/nth-check?sponsor=1
+|     `-- nth-check@2.1.1
++-- https://github.com/sponsors/mesqueeb
+|   `-- copy-anything@2.0.6
++-- https://opencollective.com/csstools
+|   `-- postcss-attribute-case-insensitive@5.0.1, postcss-color-functional-notation@4.2.3, postcss-color-hex-alpha@8.0.4, postcss-color-rebeccapurple@7.1.0, postcss-custom-media@8.0.2, postcss-custom-properties@12.1.8, postcss-custom-selectors@6.0.3, postcss-lab-function@4.2.0, postcss-nesting@10.1.8, @csstools/selector-specificity@2.0.1, postcss-pseudo-class-any-link@7.1.4
++-- https://github.com/chalk/strip-ansi?sponsor=1
+| | `-- strip-ansi@7.0.1
+| `-- https://github.com/chalk/ansi-regex?sponsor=1
+|     `-- ansi-regex@6.0.1
++-- https://github.com/sindresorhus/execa?sponsor=1
+|   `-- execa@5.1.1
++-- https://github.com/sponsors/RubenVerborgh
+|   `-- follow-redirects@1.15.1
++-- https://github.com/chalk/wrap-ansi?sponsor=1
+|   `-- wrap-ansi@7.0.0
++-- https://github.com/sponsors/gjtorikian/
+|   `-- isbinaryfile@4.0.10
+`-- https://opencollective.com/ua-parser-js
+    `-- ua-parser-js@0.7.31
+
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/security --flat --dry-run
+CREATE src/app/feature/library-manager/security.component.html (23 bytes)
+CREATE src/app/feature/library-manager/security.component.spec.ts (640 bytes)
+CREATE src/app/feature/library-manager/security.component.ts (284 bytes)
+CREATE src/app/feature/library-manager/security.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/library-manager.module.ts (505 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/security --flat --skipTests
+Support for camel case arguments has been deprecated and will be removed in a future major version.
+Use '--skip-tests' instead of '--skipTests'.
+CREATE src/app/feature/library-manager/security.component.html (23 bytes)
+CREATE src/app/feature/library-manager/security.component.ts (284 bytes)
+CREATE src/app/feature/library-manager/security.component.scss (0 bytes)
+UPDATE src/app/feature/library-manager/library-manager.module.ts (505 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/library-manager/security --flat --skip-Tests --dry-run
+Nothing to be done.
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/security-manager/security --flat --skip-Tests
+CREATE src/app/feature/security-manager/security.component.html (23 bytes)
+CREATE src/app/feature/security-manager/security.component.ts (284 bytes)
+CREATE src/app/feature/security-manager/security.component.scss (0 bytes)
+UPDATE src/app/feature/security-manager/security-manager.module.ts (284 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/security-manager/login --dry-run
+CREATE src/app/feature/security-manager/login/login.component.html (20 bytes)
+CREATE src/app/feature/security-manager/login/login.component.spec.ts (619 bytes)
+CREATE src/app/feature/security-manager/login/login.component.ts (272 bytes)
+CREATE src/app/feature/security-manager/login/login.component.scss (0 bytes)
+UPDATE src/app/feature/security-manager/security-manager.module.ts (508 bytes)
+
+NOTE: The "dryRun" flag means no changes were made.
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/security-manager/login --skyp-Tests
+Unknown option: '--skyp-Tests'
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/security-manager/login --skip-Tests
+CREATE src/app/feature/security-manager/login/login.component.html (20 bytes)
+CREATE src/app/feature/security-manager/login/login.component.ts (272 bytes)
+CREATE src/app/feature/security-manager/login/login.component.scss (0 bytes)
+UPDATE src/app/feature/security-manager/security-manager.module.ts (508 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/security-manager/register --skip-Tests
+CREATE src/app/feature/security-manager/register/register.component.html (23 bytes)
+CREATE src/app/feature/security-manager/register/register.component.ts (284 bytes)
+CREATE src/app/feature/security-manager/register/register.component.scss (0 bytes)
+UPDATE src/app/feature/security-manager/security-manager.module.ts (594 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng> ng g c feature/security-manager/forgot --skip-Tests
+CREATE src/app/feature/security-manager/forgot/forgot.component.html (21 bytes)
+CREATE src/app/feature/security-manager/forgot/forgot.component.ts (276 bytes)
+CREATE src/app/feature/security-manager/forgot/forgot.component.scss (0 bytes)
+UPDATE src/app/feature/security-manager/security-manager.module.ts (672 bytes)
+PS D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\FullStack\Frontend\full-stack-ng>

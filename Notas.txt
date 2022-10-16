@@ -1,0 +1,16 @@
+TRABAJO 02-07-2022
+
+docker compose up -d
+docker compose down
+docker compose build
+
+
+--- Para Crear un Servicio
+ng g s core/services/data/students --skip-tests
+
+
+--- Para Crear un Modulo 
+ng g class core/EnsureModuleLoadedOnceGuard --skip-tests
+
+-- Para levantar el services/data/students
+ng serve
