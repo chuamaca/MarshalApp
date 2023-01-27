@@ -8,6 +8,7 @@
    "ModelNamespace": null,
    "OutputContextPath": "Contexts",
    "OutputPath": "Entities",
+   "PreserveCasingWithRegex": true,
    "ProjectRootNamespace": "MarshalApp.Net.Rest.Infrastructure.Data",
    "Schemas": null,
    "SelectedHandlebarsLanguage": 0,
@@ -26,13 +27,27 @@
          "ObjectType": 0
       },
       {
+         "Name": "[dbo].[Inf_cst]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Inf_Hdr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Inf_Line]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[Student]",
          "ObjectType": 0
       }
    ],
-   "UiHint": "24ab984eb74d.MarshalApp.Library",
+   "UiHint": "0e0b5ee994e4.MarshalApp.Library",
+   "UncountableWords": null,
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
    "UseDbContextSplitting": true,
    "UseFluentApiOnly": true,
    "UseHandleBars": false,
@@ -40,12 +55,11 @@
    "UseInflector": true,
    "UseLegacyPluralizer": false,
    "UseManyToManyEntity": false,
-   "UseNoConstructor": false,
    "UseNoDefaultConstructor": false,
-   "UseNoNavigations": false,
    "UseNoObjectFilter": false,
    "UseNodaTime": false,
    "UseNullableReferences": false,
    "UseSchemaFolders": false,
-   "UseSpatial": false
+   "UseSpatial": false,
+   "UseT4": false
 }

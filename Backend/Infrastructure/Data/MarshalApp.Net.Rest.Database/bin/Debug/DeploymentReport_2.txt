@@ -1,0 +1,26 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Quitar
+       [dbo].[Book].[IX_Book_AuthorId] (Índice)
+       [dbo].[Grade].[IX_Grade_StudentId] (Índice)
+     Crear
+       [dbo].[Detail] (Tabla)
+       [dbo].[Inf_cst] (Tabla)
+       [dbo].[Inf_Hdr] (Tabla)
+       [dbo].[Inf_Line] (Tabla)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[Inf_cst] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[Inf_Hdr] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[Inf_Line] (Restricción DEFAULT)
+       [dbo].[FK_Inf_cst_ToTable] (Clave externa)
+       [dbo].[FK_Inf_Line_infhdr] (Clave externa)
+
+** Acciones de compatibilidad

@@ -1,16 +1,102 @@
+name: dockercompose5578292342956000929
 services:
+  full-stack-ng:
+    build:
+      context: D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Frontend\full-stack-ng
+      dockerfile: Dockerfile
+    container_name: client.angular.com
+    image: client.angular
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "8088"
+      protocol: tcp
   marshalapp.net.rest.api:
     build:
-      context: D:\CURSO NET 6 FULLSTACK DEVELOPER\Test de Clases WorkSpace\MarshalApp
+      context: D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp
       dockerfile: Backend/Domain/Library/MarshalApp.Net.Rest.API/Dockerfile
+    container_name: library.service.com
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-      ASPNETCORE_URLS: https://+:443;http://+:80
-    image: marshalappnetrestapi
+      ASPNETCORE_URLS: http://+:80
+    image: library.service
+    networks:
+      backend: null
     ports:
-    - target: 80
-    - target: 443
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8086"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
     volumes:
-    - C:\Users\Cesar\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
-    - C:\Users\Cesar\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
-version: '3.4'
+    - type: bind
+      source: C:\Users\Cesar\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Cesar\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  marshalapp.net.security.api:
+    build:
+      context: D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp
+      dockerfile: Backend/Infrastructure/Security/MarshalApp.Net.Security.API/Dockerfile
+    container_name: security.service.com
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:80
+    image: security.service
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8087"
+      protocol: tcp
+    - mode: ingress
+      target: 443
+      protocol: tcp
+    volumes:
+    - type: bind
+      source: C:\Users\Cesar\AppData\Roaming/Microsoft/UserSecrets
+      target: /root/.microsoft/usersecrets
+      read_only: true
+      bind:
+        create_host_path: true
+    - type: bind
+      source: C:\Users\Cesar\AppData\Roaming/ASP.NET/Https
+      target: /root/.aspnet/https
+      read_only: true
+      bind:
+        create_host_path: true
+  sql2019Com:
+    container_name: sql2019Com
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Password1234
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: "14334"
+      protocol: tcp
+networks:
+  backend:
+    name: backend
+    driver: bridge

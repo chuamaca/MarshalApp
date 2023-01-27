@@ -14,3 +14,51 @@ ng g class core/EnsureModuleLoadedOnceGuard --skip-tests
 
 -- Para levantar el services/data/students
 ng serve
+
+
+=============================================================
+
+// Service
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "LibraryConnectionString": "Data Source=sql2019Com;Initial Catalog=MarshalApp.Library;User ID=sa;Password=Password1234"
+  },
+  "SecuritySettings": {
+    "Secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING",
+    "Issuer": "http://localhost:8083",
+    "Audience": "http://localhost:8083",
+    "ExpirationInMinutes": 30
+  }  
+}
+
+
+
+
+// Security
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "SecurityConnectionString": "Data Source=sql2019Com;Initial Catalog=MarshalApp.Security;User ID=sa;Password=Password1234"
+  },
+  "SecuritySettings": {
+    "Secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING",
+    "Issuer": "http://localhost:8083",
+    "Audience": "http://localhost:8083",
+    "ExpirationInMinutes": 30
+  }
+}

@@ -63,6 +63,9 @@
     <Build Include="Student.sql" />
     <Build Include="Grade.sql" />
     <Build Include="Detail.sql" />
+    <Build Include="Inf_cst.sql" />
+    <Build Include="Inf_Hdr.sql" />
+    <Build Include="Inf_Line.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MarshalApp.Net.Rest.Database.publish.xml" />

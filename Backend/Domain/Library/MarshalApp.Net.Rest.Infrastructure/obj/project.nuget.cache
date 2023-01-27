@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XwqodF4lZEwfuLCrTEEST7tVkTEG+/FahB7kVRZvQpgpQqPzddivJewZkSLt9UrNy0z0ezJ07dqSuZs4b8mkaw==",
+  "dgSpecHash": "5ENFqg0OWonpkmbBPhegvPitAO9Xslg6wK5XfldrUWtIJfv+fg2Fb5+ebe0DTkHXgTKtxVWKiRRpkKNJ+YTm5Q==",
   "success": true,
   "projectFilePath": "D:\\CURSO FullStack NET 6 Angular\\Test de Clases WorkSpace\\MarshalApp\\Backend\\Domain\\Library\\MarshalApp.Net.Rest.Infrastructure\\MarshalApp.Net.Rest.Infrastructure.CrossCutting.csproj",
   "expectedPackageFiles": [

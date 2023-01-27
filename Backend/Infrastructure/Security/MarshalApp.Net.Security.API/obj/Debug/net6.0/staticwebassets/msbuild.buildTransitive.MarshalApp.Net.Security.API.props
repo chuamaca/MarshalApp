@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\MarshalApp.Net.Security.API.props" />
+</Project>

@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MarshalApp.Net.Rest.Infrastructure.CrossCutting
 build_property.ProjectDir = D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Infrastructure\

@@ -22,17 +22,21 @@ namespace MarshalApp.Net.Rest.Infrastructure.Data.Contexts
 
         public virtual DbSet<Author> Authors { get; set; }
         public virtual DbSet<Book> Books { get; set; }
-        public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Grade> Grades { get; set; }
-
+        public virtual DbSet<InfCst> InfCsts { get; set; }
+        public virtual DbSet<InfHdr> InfHdrs { get; set; }
+        public virtual DbSet<InfLine> InfLines { get; set; }
+        public virtual DbSet<Student> Students { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new Configurations.AuthorConfiguration());
             modelBuilder.ApplyConfiguration(new Configurations.BookConfiguration());
-            modelBuilder.ApplyConfiguration(new Configurations.StudentConfiguration());
             modelBuilder.ApplyConfiguration(new Configurations.GradeConfiguration());
-        
+            modelBuilder.ApplyConfiguration(new Configurations.InfCstConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations.InfHdrConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations.InfLineConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations.StudentConfiguration());
 
             OnModelCreatingPartial(modelBuilder);
         }

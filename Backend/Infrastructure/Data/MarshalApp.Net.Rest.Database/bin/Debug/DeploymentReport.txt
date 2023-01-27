@@ -1,0 +1,25 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[Author] (Tabla)
+       [dbo].[Book] (Tabla)
+       [dbo].[Detail] (Tabla)
+       [dbo].[Grade] (Tabla)
+       [dbo].[Student] (Tabla)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[Author] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[Book] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[Grade] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[Student] (Restricción DEFAULT)
+       [dbo].[FK_Book_Author] (Clave externa)
+       [dbo].[FK_Grade_Student] (Clave externa)
+
+** Acciones de compatibilidad

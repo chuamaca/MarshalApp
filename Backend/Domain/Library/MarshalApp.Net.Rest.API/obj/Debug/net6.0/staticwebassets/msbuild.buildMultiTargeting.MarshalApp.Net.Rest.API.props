@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MarshalApp.Net.Rest.API.props" />
+</Project>
