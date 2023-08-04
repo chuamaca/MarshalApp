@@ -1,0 +1,22 @@
+﻿** Aspectos destacados
+     Tablas que se volverán a compilar
+       Ninguno
+     Índices clúster que se van a quitar
+       Ninguno
+     Índices clúster que se van a crear
+       Ninguno
+     Posibles incidencias de datos
+       Ninguno
+
+** Acciones del usuario
+     Crear
+       [dbo].[Infocst] (Tabla)
+       [dbo].[InfoHdr] (Tabla)
+       [dbo].[InfoLine] (Tabla)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[Infocst] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[InfoHdr] (Restricción DEFAULT)
+       Restricción DEFAULT: restricción sin nombre en [dbo].[InfoLine] (Restricción DEFAULT)
+       [dbo].[FK_Inf_cst_ToTable] (Clave externa)
+       [dbo].[FK_Inf_Line_infohdr] (Clave externa)
+
+** Acciones de compatibilidad

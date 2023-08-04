@@ -106,6 +106,10 @@ builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 builder.Services.AddScoped<IGradeRepository, GradeRepository>();
 
+builder.Services.AddScoped<IInfohdrRepository, InfohdrRepository>();
+
+
+//Documentacion
 builder.Services.AddScoped<LibraryUnitOfWork>();
 builder.Services.AddScoped<IAuthorLinksBuilder, AuthorLinksBuilder>();
 builder.Services.AddScoped<IBookLinksBuilder, BookLinksBuilder>();
@@ -113,11 +117,19 @@ builder.Services.AddScoped<IBookLinksBuilder, BookLinksBuilder>();
 builder.Services.AddScoped<IStudentLinksBuilder, StudentLinksBuilder>();
 builder.Services.AddScoped<IGradeLinksBuilder, GradeLinksBuilder>();
 
+builder.Services.AddScoped<ITechnicalreportsLinksBuilder, TechnicalreportsLinksBuilder>();
+
 builder.Services.AddScoped<IRootLinksBuilder, RootLinksBuilder>();
 builder.Services.AddScoped<ITypeHelperService, TypeHelperService>();
-builder.Services.AddTransient<IAuthorPropertyMappingService, AuthorPropertyMappingService>();
 
+#region MapeoDeService
+
+builder.Services.AddTransient<IAuthorPropertyMappingService, AuthorPropertyMappingService>();
 builder.Services.AddTransient<IStudentPropertyMappingService, StudentPropertyMappingService>();
+//Technicalreports
+builder.Services.AddTransient<IInfohdrPropertyMappingService, InfohdrPropertyMappingService>();
+
+#endregion
 
 builder.Services.AddScoped<ILibraryApplicationService, LibraryApplicationService>();
 builder.Services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();

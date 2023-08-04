@@ -9,6 +9,8 @@ namespace MarshalApp.Net.Rest.Infrastructure.Data.UnitOfWork
         public IBookRepository Books { get; }
         public IStudentRepository Students { get; }
         public IGradeRepository Grades { get; }
+        //
+        public IInfohdrRepository Infohdrs { get; }
         public LibraryContext _context { get; }
 
         public LibraryUnitOfWork(
@@ -16,7 +18,8 @@ namespace MarshalApp.Net.Rest.Infrastructure.Data.UnitOfWork
             IAuthorRepository authorRepository,
             IBookRepository bookRepository,
             IStudentRepository studentRepository,
-            IGradeRepository gradeRepository
+            IGradeRepository gradeRepository,
+            IInfohdrRepository infohdrRepository
         ) : base(context)
         {
             _context = context;
@@ -24,8 +27,7 @@ namespace MarshalApp.Net.Rest.Infrastructure.Data.UnitOfWork
             Books = bookRepository;
             Students = studentRepository;
             Grades = gradeRepository;
-
-
+            Infohdrs = infohdrRepository;
         }
     }
 }

@@ -10,7 +10,7 @@ namespace MarshalApp.Net.Rest.API.Controllers
 {
     [Route("api/authors")]
     [ApiController]
-    [ApiExplorerSettings(IgnoreApi = true)]
+   // [ApiExplorerSettings(IgnoreApi = false)]
 
     public class AuthorsController : ControllerBase
     {

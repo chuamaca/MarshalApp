@@ -5,6 +5,7 @@ using MarshalApp.Net.Rest.API.Infrastructure.Results.Grades;
 using MarshalApp.Net.Rest.API.Infrastructure.Results.Root;
 using MarshalApp.Net.Rest.API.Infrastructure.Results.StudentCollections;
 using MarshalApp.Net.Rest.API.Infrastructure.Results.Students;
+using MarshalApp.Net.Rest.API.Infrastructure.Results.Technicalreports;
 using MarshalApp.Net.Rest.Infrastructure.CrossCutting.Dtos;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
@@ -44,5 +45,9 @@ namespace MarshalApp.Net.Rest.API.ApplicationServices
         GetGradesForStudentResult GetGradesForStudent(Guid studentId);
         PartiallyUpdateGradeForStudentResult PartiallyUpdateGradeForStudent(Guid studentId, Guid gradeId, JsonPatchDocument<GradeForUpdateDto> patchDoc, ControllerBase controller);
         UpdateGradeForStudentResult UpdateGradeForStudent(Guid studentId, Guid gradeId, GradeForUpdateDto grade);
+
+        //Technicalreports
+        CreateTechnicalreportsResult CreateTechnicalreports(InfohdrForCreationDto infohdr);
+
     }
 }

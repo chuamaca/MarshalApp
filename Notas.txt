@@ -16,6 +16,10 @@ ng g class core/EnsureModuleLoadedOnceGuard --skip-tests
 ng serve
 
 
+
+docker compose -f .\docker-compose-infr.yml down
+
+
 =============================================================
 
 // Service

@@ -8,5 +8,9 @@ D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Inf
 D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\bin\Debug\MarshalApp.Net.Rest.Database.dll
 D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\bin\Debug\MarshalApp.Net.Rest.Database.pdb
 D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\obj\Debug\MashalApp.Net.Rest.Database.sqlproj.AssemblyReference.cache
+D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\obj\Debug\Model.xml
+D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\obj\Debug\refactor.xml
+D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\obj\Debug\postdeploy.sql
+D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\obj\Debug\predeploy.sql
 D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\obj\Debug\MarshalApp.Net.Rest.Database.dll
 D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Infrastructure\Data\MarshalApp.Net.Rest.Database\obj\Debug\MarshalApp.Net.Rest.Database.pdb

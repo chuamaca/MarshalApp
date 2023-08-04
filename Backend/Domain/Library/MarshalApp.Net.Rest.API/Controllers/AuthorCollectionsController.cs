@@ -6,7 +6,7 @@ namespace MarshalApp.Net.Rest.API.Controllers
 {
     [Route("api/authorcollections")]
     [ApiController]
-    [ApiExplorerSettings(IgnoreApi = true)]
+    //[ApiExplorerSettings(IgnoreApi = true)]
     public class AuthorCollectionsController : ControllerBase
     {
         private readonly ILibraryApplicationService _libraryApplicationService;

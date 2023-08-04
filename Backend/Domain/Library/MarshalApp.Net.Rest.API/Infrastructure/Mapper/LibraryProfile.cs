@@ -18,6 +18,7 @@ namespace MarshalApp.Net.Rest.API.Infrastructure.Mapper
             CreateMap<AuthorForCreationWithDateOfDeathDto, Author>();
             CreateMap<AuthorForUpdateDto, Author>();
             CreateMap<Author, AuthorForUpdateDto>();
+
             CreateMap<BookForCreationDto, Book>();
             CreateMap<BookForUpdateDto, Book>();
             CreateMap<Book, BookForUpdateDto>();
@@ -32,9 +33,25 @@ namespace MarshalApp.Net.Rest.API.Infrastructure.Mapper
             //  CreateMap<EstudianteDto, Estudiante>();
             CreateMap<StudentForUpdateDto, Student>();
             CreateMap<Student, StudentForUpdateDto>();
+
             CreateMap<GradeForCreationDto, Grade>();
             CreateMap<GradeForUpdateDto, Grade>();
             CreateMap<Grade, GradeForUpdateDto>();
+
+
+            //CreateMap<InfoHdr, InfohdrDto>()
+            //    .ForMember(dest => dest.Name, opt => opt.MapFrom(src => $"{src.FirstName} {src.LastName}"))
+            //    .ForMember(dest => dest.Collegecareer, opt => opt.MapFrom(src => src.Collegecareer))
+            //    .ForMember(dest => dest.Gender, opt => opt.MapFrom(src => src.Gender));
+
+            CreateMap<InfoHdr, InfohdrDto>();
+            CreateMap<InfohdrForCreationDto, InfoHdr>();
+            CreateMap<Infocst, InfocstForCreationDto>();
+            CreateMap<InfocstForCreationDto, Infocst>();
+            CreateMap<InfoLine, InfolineForCreationDto>();
+            CreateMap< InfolineForCreationDto , InfoLine>();
+
+
         }
     }
 }

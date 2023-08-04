@@ -14,6 +14,7 @@ using MarshalApp.Net.Rest.Infrastructure.Data.UnitOfWork;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using MarshalApp.Net.Rest.Infrastructure.CrossCutting.Helpers.LinksBuilder;
+using MarshalApp.Net.Rest.API.Infrastructure.Results.Technicalreports;
 
 namespace MarshalApp.Net.Rest.API.ApplicationServices
 {
@@ -26,6 +27,7 @@ namespace MarshalApp.Net.Rest.API.ApplicationServices
         private readonly IRootLinksBuilder _rootLinksBuilder;
         private readonly IStudentLinksBuilder _studentLinksBuilder;
         private readonly IGradeLinksBuilder _gradeLinksBuilder;
+        private readonly ITechnicalreportsLinksBuilder _technicalreportsLinksBuilder;
 
         public LibraryApplicationService(
             LibraryUnitOfWork unitOfWork,
@@ -34,6 +36,7 @@ namespace MarshalApp.Net.Rest.API.ApplicationServices
             IBookLinksBuilder bookLinksBuilder,
             IStudentLinksBuilder studentLinksBuilder,
             IGradeLinksBuilder gradeLinksBuilder,
+            ITechnicalreportsLinksBuilder technicalreportsLinksBuilder,
             IRootLinksBuilder rootLinksBuilder
         )
         {
@@ -43,6 +46,7 @@ namespace MarshalApp.Net.Rest.API.ApplicationServices
             _bookLinksBuilder = bookLinksBuilder;
             _studentLinksBuilder = studentLinksBuilder;
             _gradeLinksBuilder = gradeLinksBuilder;
+            _technicalreportsLinksBuilder = technicalreportsLinksBuilder;
             _rootLinksBuilder = rootLinksBuilder;
         }
         public GetAuthorsResult GetAuthors(AuthorsResourceParameters authorsResourceParameters)
@@ -779,6 +783,29 @@ namespace MarshalApp.Net.Rest.API.ApplicationServices
             return result;
         }
 
+        public CreateTechnicalreportsResult CreateTechnicalreports(InfohdrForCreationDto infohdr)
+        {
+            CreateTechnicalreportsResult result = new CreateTechnicalreportsResult();
 
+            var infohdrEntity = _mapper.Map<InfoHdr>(infohdr);
+
+            _unitOfWork.Infohdrs.AddInfohdr(infohdrEntity);
+
+            if (!_unitOfWork.Save())
+            {
+                throw new Exception("Creating an author failed on save.");
+                // return StatusCode(500, "A problem happened with handling your request.");
+            }
+
+            var infohdrToReturn = _mapper.Map<InfohdrDto>(infohdrEntity);
+
+            var links = _technicalreportsLinksBuilder.CreateDocumentationLinksForTechnicalreports(infohdrToReturn.Idinfohdr, null);
+
+            result.LinkedResource = infohdrToReturn.ShapeData(null);
+
+            result.LinkedResource.Add("links", links);
+
+            return result;
+        }
     }
 }

@@ -23,19 +23,23 @@
          "ObjectType": 0
       },
       {
+         "Name": "[dbo].[Detail]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[Grade]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Inf_cst]",
+         "Name": "[dbo].[Infocst]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Inf_Hdr]",
+         "Name": "[dbo].[InfoHdr]",
          "ObjectType": 0
       },
       {
-         "Name": "[dbo].[Inf_Line]",
+         "Name": "[dbo].[InfoLine]",
          "ObjectType": 0
       },
       {

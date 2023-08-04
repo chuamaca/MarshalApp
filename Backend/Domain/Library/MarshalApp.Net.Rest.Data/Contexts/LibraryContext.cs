@@ -22,21 +22,28 @@ namespace MarshalApp.Net.Rest.Infrastructure.Data.Contexts
 
         public virtual DbSet<Author> Authors { get; set; }
         public virtual DbSet<Book> Books { get; set; }
+        public virtual DbSet<Detail> Details { get; set; }
         public virtual DbSet<Grade> Grades { get; set; }
-        public virtual DbSet<InfCst> InfCsts { get; set; }
-        public virtual DbSet<InfHdr> InfHdrs { get; set; }
-        public virtual DbSet<InfLine> InfLines { get; set; }
+        public virtual DbSet<InfoHdr> InfoHdrs { get; set; }
+        public virtual DbSet<InfoLine> InfoLines { get; set; }
+        public virtual DbSet<Infocst> Infocsts { get; set; }
         public virtual DbSet<Student> Students { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new Configurations.AuthorConfiguration());
             modelBuilder.ApplyConfiguration(new Configurations.BookConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations.DetailConfiguration());
             modelBuilder.ApplyConfiguration(new Configurations.GradeConfiguration());
-            modelBuilder.ApplyConfiguration(new Configurations.InfCstConfiguration());
-            modelBuilder.ApplyConfiguration(new Configurations.InfHdrConfiguration());
-            modelBuilder.ApplyConfiguration(new Configurations.InfLineConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations.InfoHdrConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations.InfoLineConfiguration());
+            modelBuilder.ApplyConfiguration(new Configurations.InfocstConfiguration());
             modelBuilder.ApplyConfiguration(new Configurations.StudentConfiguration());
+
+            modelBuilder.HasSequence<decimal>("ID_CORRELATIVO")
+                .HasMin(1)
+                .HasMax(9999999999)
+                .IsCyclic();
 
             OnModelCreatingPartial(modelBuilder);
         }
