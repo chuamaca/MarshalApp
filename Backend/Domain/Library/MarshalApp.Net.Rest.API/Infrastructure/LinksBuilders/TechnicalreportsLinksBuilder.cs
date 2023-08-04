@@ -25,6 +25,8 @@ namespace MarshalApp.Net.Rest.API.Infrastructure.LinksBuilders
             var links = new List<LinkDto>();
             var urlHelper = _urlHelperFactory.GetUrlHelper(_actionContextAccessor.ActionContext);
 
+            /*
+             
             if (string.IsNullOrWhiteSpace(fields))
             {
                 links.Add(new LinkDto(urlHelper.Link("GetTechnicalreports", new { id }), "self", "GET"));
@@ -35,7 +37,9 @@ namespace MarshalApp.Net.Rest.API.Infrastructure.LinksBuilders
             }
 
             links.Add(new LinkDto(urlHelper.Link("DeleteTechnicalreport", new { id }), "delete_technicalreport", "DELETE"));
-           links.Add(new LinkDto(urlHelper.Link("CreateTechnicalreport", new { id = id }), "create_technicalreport", "POST"));
+
+            */
+           links.Add(new LinkDto(urlHelper.Link("technicalreports", new { id = id }), "create_technicalreport", "POST"));
            // links.Add(new LinkDto(urlHelper.Link("GetGradesForStudent", new { estudianteId = id }), "cursos", "GET"));
 
             return links;
