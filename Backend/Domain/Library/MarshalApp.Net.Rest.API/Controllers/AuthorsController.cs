@@ -78,6 +78,8 @@ namespace MarshalApp.Net.Rest.API.Controllers
 
             var result = _libraryApplicationService.CreateAuthor(author);
 
+          
+
             return CreatedAtRoute("GetAuthor", new { id = result.LinkedResource["AuthorId"] }, result.LinkedResource);
         }
 

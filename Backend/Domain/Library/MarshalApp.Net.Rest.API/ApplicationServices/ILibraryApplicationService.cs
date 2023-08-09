@@ -49,5 +49,7 @@ namespace MarshalApp.Net.Rest.API.ApplicationServices
         //Technicalreports
         CreateTechnicalreportsResult CreateTechnicalreports(InfohdrForCreationDto infohdr);
 
+        GetTechnicalreportsResult GetTechnicalreport(Guid Idinfohdr, string fields);
+
     }
 }

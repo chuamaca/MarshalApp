@@ -783,6 +783,8 @@ namespace MarshalApp.Net.Rest.API.ApplicationServices
             return result;
         }
 
+
+        //CREAR REPORTE DE MANTENIMIENTO
         public CreateTechnicalreportsResult CreateTechnicalreports(InfohdrForCreationDto infohdr)
         {
             CreateTechnicalreportsResult result = new CreateTechnicalreportsResult();
@@ -803,9 +805,46 @@ namespace MarshalApp.Net.Rest.API.ApplicationServices
 
             result.LinkedResource = infohdrToReturn.ShapeData(null);
 
+           result.LinkedResource.Add("links", links);
+
+            return result;
+        }
+
+        public GetTechnicalreportsResult GetTechnicalreport(Guid Idinfohdr, string fields)
+        {
+
+            GetTechnicalreportsResult result = new GetTechnicalreportsResult();
+            var technicalFromRepo=_unitOfWork.Infohdrs.GetInfohdr(Idinfohdr);
+
+            if (technicalFromRepo==null)
+            {
+                return null;
+            }
+
+            var infoHdr=_mapper.Map<InfohdrDto>(technicalFromRepo);
+            var links = _technicalreportsLinksBuilder.CreateDocumentationLinksForTechnicalreports(Idinfohdr,fields);
+            result.LinkedResource = infoHdr.ShapeData(fields);
+            result.LinkedResource.Add("Links", links);
+            return result;
+
+            /*
+              GetAuthorResult result = new GetAuthorResult();
+            var authorFromRepo = _unitOfWork.Authors.GetAuthor(authorId);
+
+            if (authorFromRepo == null)
+            {
+                return null;
+            }
+
+            var author = _mapper.Map<AuthorDto>(authorFromRepo);
+            var links = _authorLinksBuilder.CreateDocumentationLinksForAuthor(authorId, fields);
+
+            result.LinkedResource = author.ShapeData(fields);
+
             result.LinkedResource.Add("links", links);
 
             return result;
+             */
         }
     }
 }
