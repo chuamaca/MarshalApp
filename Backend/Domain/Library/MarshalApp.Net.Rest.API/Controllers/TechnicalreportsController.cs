@@ -42,7 +42,7 @@ namespace MarshalApp.Net.Rest.API.Controllers
         [HttpGet("{id}", Name = "GetTechnicalreport")]
         public IActionResult GetTechnicalreport(Guid id, [FromQuery] string? fields)
         {
-            if (!_typeHelperService.TypeHasProperties<InfohdrDto>(fields))
+            if (!_typeHelperService.TypeHasProperties<InfohdrForCreationDto>(fields))
             {
                 return BadRequest();
             }
