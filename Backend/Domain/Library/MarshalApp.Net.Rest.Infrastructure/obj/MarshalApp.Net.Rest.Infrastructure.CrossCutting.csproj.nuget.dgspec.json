@@ -1,33 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CURSO FullStack NET 6 Angular\\Test de Clases WorkSpace\\MarshalApp\\Backend\\Domain\\Library\\MarshalApp.Net.Rest.Infrastructure\\MarshalApp.Net.Rest.Infrastructure.CrossCutting.csproj": {}
+    "C:\\WS PER\\MarshalApp\\Backend\\Domain\\Library\\MarshalApp.Net.Rest.Infrastructure\\MarshalApp.Net.Rest.Infrastructure.CrossCutting.csproj": {}
   },
   "projects": {
-    "D:\\CURSO FullStack NET 6 Angular\\Test de Clases WorkSpace\\MarshalApp\\Backend\\Domain\\Library\\MarshalApp.Net.Rest.Infrastructure\\MarshalApp.Net.Rest.Infrastructure.CrossCutting.csproj": {
+    "C:\\WS PER\\MarshalApp\\Backend\\Domain\\Library\\MarshalApp.Net.Rest.Infrastructure\\MarshalApp.Net.Rest.Infrastructure.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CURSO FullStack NET 6 Angular\\Test de Clases WorkSpace\\MarshalApp\\Backend\\Domain\\Library\\MarshalApp.Net.Rest.Infrastructure\\MarshalApp.Net.Rest.Infrastructure.CrossCutting.csproj",
+        "projectUniqueName": "C:\\WS PER\\MarshalApp\\Backend\\Domain\\Library\\MarshalApp.Net.Rest.Infrastructure\\MarshalApp.Net.Rest.Infrastructure.CrossCutting.csproj",
         "projectName": "MarshalApp.Net.Rest.Infrastructure.CrossCutting",
-        "projectPath": "D:\\CURSO FullStack NET 6 Angular\\Test de Clases WorkSpace\\MarshalApp\\Backend\\Domain\\Library\\MarshalApp.Net.Rest.Infrastructure\\MarshalApp.Net.Rest.Infrastructure.CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
-        "outputPath": "D:\\CURSO FullStack NET 6 Angular\\Test de Clases WorkSpace\\MarshalApp\\Backend\\Domain\\Library\\MarshalApp.Net.Rest.Infrastructure\\obj\\",
+        "projectPath": "C:\\WS PER\\MarshalApp\\Backend\\Domain\\Library\\MarshalApp.Net.Rest.Infrastructure\\MarshalApp.Net.Rest.Infrastructure.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\WS PER\\MarshalApp\\Backend\\Domain\\Library\\MarshalApp.Net.Rest.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\DevExpress 19.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -41,6 +40,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -68,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

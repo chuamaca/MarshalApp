@@ -32,3 +32,21 @@ D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Dom
 D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.pdb
 D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.genruntimeconfig.cache
 D:\CURSO FullStack NET 6 Angular\Test de Clases WorkSpace\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\ref\MarshalApp.Net.Rest.Infrastructure.Data.dll
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\bin\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.deps.json
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\bin\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.runtimeconfig.json
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\bin\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.dll
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\bin\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.pdb
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\bin\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.dll
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\bin\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.CrossCutting.pdb
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.csproj.AssemblyReference.cache
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.AssemblyInfoInputs.cache
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.AssemblyInfo.cs
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.csproj.CoreCompileInputs.cache
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.sourcelink.json
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalA.580FAFF4.Up2Date
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.dll
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\refint\MarshalApp.Net.Rest.Infrastructure.Data.dll
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.pdb
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\MarshalApp.Net.Rest.Infrastructure.Data.genruntimeconfig.cache
+C:\WS PER\MarshalApp\Backend\Domain\Library\MarshalApp.Net.Rest.Data\obj\Debug\net6.0\ref\MarshalApp.Net.Rest.Infrastructure.Data.dll
